@@ -1,7 +1,7 @@
 import { MongoClient, ObjectId } from "mongodb";
 import {uri} from "./credentials.js"
 const Client = new MongoClient(uri)
-const db = Client.db("sample_supplies")
+const db = Client.db("sample_sugitpplies")
 const suppliesCollections = db.collection("supplies")
 const newTools = {
     toolName: 'Hammer',
